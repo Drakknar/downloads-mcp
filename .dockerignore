@@ -1,0 +1,7 @@
+.git
+.github
+node_modules
+test
+scripts
+*.md
+Dockerfile

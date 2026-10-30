@@ -1,0 +1,14 @@
+{
+  "name": "downloads-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server for JDownloader 2 and MegaBasterd: add, start, stop, delete downloads and check their status",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "^3.25.76"
+  }
+}
