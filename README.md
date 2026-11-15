@@ -1,5 +1,7 @@
 # downloads MCP
 
+<img src="assets/icon.svg" alt="" width="96" align="right">
+
 MCP server (Streamable HTTP, stateless, `POST /mcp`) for the `jdownloader2` (jlesage/jdownloader-2) and `megabasterd` (mietzen/megabasterd) containers. Meant to be used through an MCP gateway such as LiteLLM.
 
 Image: `ghcr.io/drakknar/downloads-mcp` (Node ≥ 22.13 for `node:sqlite`), port 8080. Mounts: `/data`, JDownloader's `/config` at `/jd`, MegaBasterd's `/config` and `/output` at `/mb` and `/mb-output` (the same host paths the downloaders use, so SQLite locking works), `/var/run/docker.sock`.
